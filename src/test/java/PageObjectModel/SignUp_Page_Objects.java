@@ -18,8 +18,6 @@ public class SignUp_Page_Objects  {
     }
 
 
-
-
     private By signUpLink = By.xpath("//a[@class='login']");
     private By emailAddress = By.id("email_create");
     private By createAccButton = By.id("SubmitCreate");

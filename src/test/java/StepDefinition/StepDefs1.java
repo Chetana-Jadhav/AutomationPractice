@@ -33,22 +33,6 @@ public class StepDefs1 {
     }
 
 
-   /* @Before
-    public void SetUp(Scenario scenario) {
-        DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setAcceptInsecureCerts(true);
-        // String browserName = System.getProperty("browser");
-        testContext.setDriver(DriverFactory.createInstance("chrome"));
-        // testContext.setDriver(new ChromeDriver(cap));
-        testContext.getDriver().manage().window().maximize();
-        testContext.getDriver().manage().deleteAllCookies();
-        testContext.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        this.scenario = scenario;
-
-    }
-
-    */
-
     @Given("User navigated to {string}")
     public void user_navigated_to(String url) {
         testContext.getDriver().get(url);
