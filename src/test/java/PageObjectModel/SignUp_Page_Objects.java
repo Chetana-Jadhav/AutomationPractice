@@ -21,7 +21,7 @@ public class SignUp_Page_Objects  {
     private By signUpLink = By.xpath("//a[@class='login']");
     private By emailAddress = By.id("email_create");
     private By createAccButton = By.id("SubmitCreate");
-    private By title = By.xpath("//input[@id='id_gender2']");
+    private By title = By.xpath("//input[@id='id_gender1']");
     private By day = By.xpath("//select[@id='days']");
     private By month = By.xpath("//select[@id='months']");
     private By year = By.xpath("//select[@id='years']");
